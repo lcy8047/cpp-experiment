@@ -14,7 +14,7 @@ void check( uint64_t count )
         v.push_back( i );
     }
     end = clock();
-    std::cout << std::setw(10) << std::right << end - start << "clock, " << ( end - start ) / CLOCKS_PER_SEC << "s" << std::endl;
+    std::cout << std::setw(10) << std::right << end - start << "clock, " << ( double )( end - start ) / CLOCKS_PER_SEC << "s" << std::endl;
 }
 
 void check_resize( uint64_t count )
@@ -29,7 +29,7 @@ void check_resize( uint64_t count )
         v.push_back( i );
     }
     end = clock();
-    std::cout << std::setw(10) << std::right << end - start << "clock, " << ( end - start ) / CLOCKS_PER_SEC << "s : resize" << std::endl;
+    std::cout << std::setw(10) << std::right << end - start << "clock, " << ( double ) ( end - start ) / CLOCKS_PER_SEC << "s : resize" << std::endl;
 }
 
 int main( void )
