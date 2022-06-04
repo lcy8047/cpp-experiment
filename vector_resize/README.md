@@ -1,5 +1,7 @@
 # vector_resize
 
+vector를 사용했을 때 resize를 한 것과 하지 않은 것을 비교함
+
 ## result
 
 ```
