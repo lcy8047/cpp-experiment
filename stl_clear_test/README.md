@@ -5,6 +5,7 @@ stack을 재사용하는 경우 변수를 다시 선언할 때, 모두 pop을 �
 
 ### result
 
+``` text
 Element size : 32, repetition : 100
         97clock, 9.7e-05s : redecl
        139clock, 0.000139s : pop
@@ -85,3 +86,4 @@ Element size : 16777216, repetition : 100
   15043162clock, 15.0432s : redecl
   26736200clock, 26.7362s : pop
 ------------------
+```
